@@ -142,34 +142,4 @@ plt.show()
 
 
 
-# for i in range(0,N):
-# 	globals()['F0_%s' % i],globals()['PV0_%s' % i] = f_oneway(globals()['s0_%s' % i][:,-1],globals()['s1_%s' % i][:,-1]) #No sensory
-# 	globals()['F1_%s' % i],globals()['PV1_%s' % i] = f_oneway(globals()['s0_%s' % i][:,-1],globals()['s2_%s' % i][:,-1]) 
-# 	globals()['F2_%s' % i],globals()['PV2_%s' % i] = f_oneway(globals()['s1_%s' % i][:,-1],globals()['s2_%s' % i][:,-1])
-# 	globals()['F3_%s' % i],globals()['PV3_%s' % i] = f_oneway(globals()['s1_%s' % i][:,-1],globals()['s3_%s' % i][:,-1])
-# 	globals()['F4_%s' % i],globals()['PV4_%s' % i] = f_oneway(globals()['s2_%s' % i][:,-1],globals()['s3_%s' % i][:,-1])
-# 	globals()['PV0_%s' % i]=round(globals()['PV0_%s' % i],5)
-# 	globals()['PV1_%s' % i]=round(globals()['PV1_%s' % i],5)
-# 	globals()['PV2_%s' % i]=round(globals()['PV2_%s' % i],5)
-# 	globals()['PV3_%s' % i]=round(globals()['PV3_%s' % i],5)
-# 	globals()['PV4_%s' % i]=round(globals()['PV4_%s' % i],5)
-
-
-# the_table = plt.table(cellText=[[PV0_0,PV1_0,PV2_0,PV3_0,PV4_0],[PV0_1,PV1_1,PV2_1,PV3_1,PV4_1],
-# 	                            [PV0_2,PV1_2,PV2_2,PV3_2,PV4_2],[PV0_3,PV1_3,PV2_3,PV3_3,PV4_3],
-# 	                            [PV0_4,PV1_4,PV2_4,PV3_4,PV4_4],[PV0_5,PV1_5,PV2_5,PV3_5,PV4_5],
-# 	                            [PV0_6,PV1_6,PV2_6,PV3_6,PV4_6],[PV0_7,PV1_7,PV2_7,PV3_7,PV4_7]],
-#                       rowLabels=learning_episode,
-#                       colLabels=['P-Value:No Force and 1D Force ', 'P-Value:No Force and 3D Force ','P-Value:1D Force and 3D Force','P-Value:1D Force and binary','P-Value:3D Force and binaray'],
-#                       loc='bottom',
-#                       cellLoc="center",
-#                       bbox=[0, -0.4, 1.0, 0.3])
-
-# the_table.auto_set_font_size(False)
-# the_table.set_fontsize(10)
-
-# plt.show()
-# fig.savefig(output_dir+'/exp2_vs_height_boxplot.pdf')
- 
-
 
