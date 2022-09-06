@@ -2,7 +2,7 @@
 
 
 
-Code used in Ojaghi et. al. submission to NMI
+Code used in Ojaghi et. al. submission to Science Robotics
 
 Please execute setup.py to install the environment. 
 Put the SWoStiffness_xml model folder to /gym/gym/envs/mujoco/assets.
