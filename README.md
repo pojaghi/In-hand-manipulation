@@ -46,6 +46,5 @@ You can install TensorFlow using the following command:
 
 pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.14.0-py3-none-any.whl
 
-
 Ensure that all the requirements are met before running the code. If you encounter any issues, feel free to open an issue or reach out for support.
 
