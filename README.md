@@ -5,21 +5,25 @@ This repository contains the code used in the et. al. submission to Science Robo
 #### Installation
 
 To install the environment, please execute `setup.py`.
+- Execute the code using:
+
+  ```bash
+  python setup.py install
 
 #### MuJoCo Model
 
-Before simulating Mujoco in OpenAI Gym, you'll need a MuJoCo XML model file in its native MJCF format. Details about the modeling process can be found in the `xml` folder.
+Before simulating Mujoco in OpenAI Gym, you'll need a MuJoCo XML model file in its native MJCF format. Details about the modeling process can be found in the `xml/ball` folder.
 
 #### Building Gym Environment
 
 Once the model is created, you can build the Gym environment to simulate the Mujoco model in the OpenAI Gym framework:
 
 1. Put the model XML file in `gym/gym/envs/mujoco/assets`.
-2. Create a new environment Python file (e.g., `yourenvname.py`) in `gym/gym/envs/mujoco`. In our case, `handtest_rot_pool_iter.py`. You can refer to the existing files provided by the Gym framework.
+2. Create a new environment Python file (e.g., `yourenvname.py`) in `gym/gym/envs/mujoco`.  You can refer to the existing files provided by the Gym framework.
 
 #### Additional Setup
 
-- Put the `SWoStiffness_xml` model folder in `gym/gym/envs/mujoco/assets`.
+- Put the `xml/ball` folder in `gym/gym/envs/mujoco/assets`.
 - Install the required packages using:
 pip install -r requirements.txt
 
@@ -31,9 +35,12 @@ pip install -r requirements.txt
 
 Please note that this project relies on the following dependencies:
 
-- Gym version 0.13.1
+- Gym version 0.17.3
 - Stable Baselines version 2.9.0
-- TensorFlow version 1.14.0 
+- TensorFlow version 1.14.0
+- Numpy version 1.21.0
+- Mujocopy version 2.0.2.13
+
 
 You can install TensorFlow using the following command:
 
