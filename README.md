@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 Please note that this project relies on the following dependencies:
 
-- Gym version 0.13.1
+- Gym version 0.17.3
 - Stable Baselines version 2.9.0
 - TensorFlow version 1.14.0
 - Numpy version 1.21.0
