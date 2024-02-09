@@ -33,7 +33,8 @@ Please note that this project relies on the following dependencies:
 
 - Gym version 0.13.1
 - Stable Baselines version 2.9.0
-- TensorFlow version 1.14.0 
+- TensorFlow version 1.14.0
+- Numpy version 1.21.0
 
 You can install TensorFlow using the following command:
 
