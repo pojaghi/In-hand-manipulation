@@ -1,6 +1,6 @@
 ### Code for Mujoco Simulation in OpenAI Gym
 
-This repository contains the code used in the Ojaghi et. al. submission to Science Advances March 2024.
+This repository contains the code used in the Ojaghi et. al. submission to Science Advance Feb 2024.
 
 #### Installation
 
